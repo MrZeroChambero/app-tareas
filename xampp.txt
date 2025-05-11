@@ -1,0 +1,20 @@
+@echo off
+cd /D %~dp0
+start "" "C:\xampp\xampp-control.exe"
+@echo off
+echo Iniciando Apache...
+cd C:\xampp\apache
+call apache_start.bat
+
+echo Iniciando FileZilla...
+cd C:\xampp\filezilla
+call filezilla_start.bat
+
+echo Iniciando MySQL...
+cd C:\xampp\mysql\bin
+call mysql.exe
+
+echo Todos los servicios han sido iniciados.
+
+cd %~dp0
+npm run inicio

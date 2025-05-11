@@ -1,0 +1,44 @@
+.fondo-gris {
+  background-color: #f8f9fa;
+}
+textarea {
+  width: 100%;
+  resize: none;
+}
+.textoBN {
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+.custom-card-footer {
+  background-color: #f0f0f0; /* Cambia este color al gris que desees */
+
+  border: 1px solid#ccc;
+}
+.tamano {
+  width: 500px;
+}
+.custom-column {
+  display: inline-block;
+  padding: 8px;
+  border-right: 1px solid grey; /* Línea gris entre columnas */
+}
+.p {
+  padding: 8px;
+}
+/* Estilo para la última columna (sin borde derecho) */
+.custom-column:last-child {
+  border-right: none;
+}
+
+.swal-height {
+  width: 80vh; /* Altura deseada */
+}
+
+.inputF {
+  max-width: 700px;
+}
+.deshabilitado {
+  display: none;
+}
